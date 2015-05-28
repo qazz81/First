@@ -23,8 +23,10 @@
 - (IBAction)num:(id)sender;
 - (IBAction)operation:(id)sender;
 - (IBAction)inverse:(id)sender;
+- (IBAction)changeLabelText:(id)sender;
 
-
+@property (weak, nonatomic) IBOutlet UISlider *slider;
+@property (weak, nonatomic) IBOutlet UILabel *text;
 
 @end
 

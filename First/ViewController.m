@@ -88,4 +88,12 @@
     // Dispose of any resources that can be recreated.
 }
 
+
+- (IBAction)changeLabelText:(id)sender{
+    int sliderValue = _slider.value;
+     _text.text = [NSString stringWithFormat:@"%d", sliderValue ];
+}
+
+
+
 @end
