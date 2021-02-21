@@ -13,6 +13,8 @@
 	<key>CFBundleName</key>
 	<string>$(PRODUCT_NAME)</string>
 	FFFFAAAAAA
+	SSSS
+	RRRR
 	<key>CFBundlePackageType</key>
 	<string>BNDL</string>
 	<key>CFBundleShortVersionString</key>
